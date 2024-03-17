@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "dairoimagecrop",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/DAIRO-HY/DairoImageCrop.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "549bb6befc3c1c0c9c4544155ce998e2a8c6487b"
+      }
+    }
+  ],
+  "version" : 2
+}

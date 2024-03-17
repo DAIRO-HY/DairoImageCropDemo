@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B16C1542BA7391300812606 /* DairoImageCropDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B16C1532BA7391300812606 /* DairoImageCropDemoApp.swift */; };
+		5B16C1582BA7391500812606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B16C1572BA7391500812606 /* Assets.xcassets */; };
+		5B16C15B2BA7391500812606 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B16C15A2BA7391500812606 /* Preview Assets.xcassets */; };
+		5B16C1632BA7393D00812606 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B16C1612BA7393D00812606 /* ContentView.swift */; };
+		5B16C1642BA7393D00812606 /* SystemImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B16C1622BA7393D00812606 /* SystemImagePicker.swift */; };
+		5B16C1672BA7397500812606 /* DairoImageCrop in Frameworks */ = {isa = PBXBuildFile; productRef = 5B16C1662BA7397500812606 /* DairoImageCrop */; };
+		5B16C16A2BA7421700812606 /* DairoImageCrop in Frameworks */ = {isa = PBXBuildFile; productRef = 5B16C1692BA7421700812606 /* DairoImageCrop */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B16C1502BA7391300812606 /* DairoImageCropDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DairoImageCropDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B16C1532BA7391300812606 /* DairoImageCropDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DairoImageCropDemoApp.swift; sourceTree = "<group>"; };
+		5B16C1572BA7391500812606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B16C15A2BA7391500812606 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B16C1612BA7393D00812606 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../DairoImageCropbk/DairoImageCrop/ContentView.swift; sourceTree = "<group>"; };
+		5B16C1622BA7393D00812606 /* SystemImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemImagePicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B16C14D2BA7391300812606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B16C16A2BA7421700812606 /* DairoImageCrop in Frameworks */,
+				5B16C1672BA7397500812606 /* DairoImageCrop in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B16C1472BA7391300812606 = {
+			isa = PBXGroup;
+			children = (
+				5B16C1522BA7391300812606 /* DairoImageCropDemo */,
+				5B16C1512BA7391300812606 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B16C1512BA7391300812606 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B16C1502BA7391300812606 /* DairoImageCropDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B16C1522BA7391300812606 /* DairoImageCropDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5B16C1612BA7393D00812606 /* ContentView.swift */,
+				5B16C1622BA7393D00812606 /* SystemImagePicker.swift */,
+				5B16C1532BA7391300812606 /* DairoImageCropDemoApp.swift */,
+				5B16C1572BA7391500812606 /* Assets.xcassets */,
+				5B16C1592BA7391500812606 /* Preview Content */,
+			);
+			path = DairoImageCropDemo;
+			sourceTree = "<group>";
+		};
+		5B16C1592BA7391500812606 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5B16C15A2BA7391500812606 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B16C14F2BA7391300812606 /* DairoImageCropDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B16C15E2BA7391500812606 /* Build configuration list for PBXNativeTarget "DairoImageCropDemo" */;
+			buildPhases = (
+				5B16C14C2BA7391300812606 /* Sources */,
+				5B16C14D2BA7391300812606 /* Frameworks */,
+				5B16C14E2BA7391300812606 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DairoImageCropDemo;
+			packageProductDependencies = (
+				5B16C1662BA7397500812606 /* DairoImageCrop */,
+				5B16C1692BA7421700812606 /* DairoImageCrop */,
+			);
+			productName = DairoImageCropDemo;
+			productReference = 5B16C1502BA7391300812606 /* DairoImageCropDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B16C1482BA7391300812606 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5B16C14F2BA7391300812606 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 5B16C14B2BA7391300812606 /* Build configuration list for PBXProject "DairoImageCropDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B16C1472BA7391300812606;
+			packageReferences = (
+				5B16C1682BA7421700812606 /* XCRemoteSwiftPackageReference "DairoImageCrop" */,
+			);
+			productRefGroup = 5B16C1512BA7391300812606 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B16C14F2BA7391300812606 /* DairoImageCropDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B16C14E2BA7391300812606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B16C15B2BA7391500812606 /* Preview Assets.xcassets in Resources */,
+				5B16C1582BA7391500812606 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B16C14C2BA7391300812606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B16C1642BA7393D00812606 /* SystemImagePicker.swift in Sources */,
+				5B16C1542BA7391300812606 /* DairoImageCropDemoApp.swift in Sources */,
+				5B16C1632BA7393D00812606 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5B16C15C2BA7391500812606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B16C15D2BA7391500812606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B16C15F2BA7391500812606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DairoImageCropDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = GSH7K3ZYLR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.dairo.image.crop.demo.DairoImageCropDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B16C1602BA7391500812606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DairoImageCropDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = GSH7K3ZYLR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.dairo.image.crop.demo.DairoImageCropDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B16C14B2BA7391300812606 /* Build configuration list for PBXProject "DairoImageCropDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B16C15C2BA7391500812606 /* Debug */,
+				5B16C15D2BA7391500812606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B16C15E2BA7391500812606 /* Build configuration list for PBXNativeTarget "DairoImageCropDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B16C15F2BA7391500812606 /* Debug */,
+				5B16C1602BA7391500812606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5B16C1682BA7421700812606 /* XCRemoteSwiftPackageReference "DairoImageCrop" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/DAIRO-HY/DairoImageCrop.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5B16C1662BA7397500812606 /* DairoImageCrop */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DairoImageCrop;
+		};
+		5B16C1692BA7421700812606 /* DairoImageCrop */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B16C1682BA7421700812606 /* XCRemoteSwiftPackageReference "DairoImageCrop" */;
+			productName = DairoImageCrop;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5B16C1482BA7391300812606 /* Project object */;
+}
