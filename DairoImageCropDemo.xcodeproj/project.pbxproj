@@ -10,10 +10,10 @@
 		5B16C1542BA7391300812606 /* DairoImageCropDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B16C1532BA7391300812606 /* DairoImageCropDemoApp.swift */; };
 		5B16C1582BA7391500812606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B16C1572BA7391500812606 /* Assets.xcassets */; };
 		5B16C15B2BA7391500812606 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B16C15A2BA7391500812606 /* Preview Assets.xcassets */; };
-		5B16C1632BA7393D00812606 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B16C1612BA7393D00812606 /* ContentView.swift */; };
 		5B16C1642BA7393D00812606 /* SystemImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B16C1622BA7393D00812606 /* SystemImagePicker.swift */; };
 		5B16C1672BA7397500812606 /* DairoImageCrop in Frameworks */ = {isa = PBXBuildFile; productRef = 5B16C1662BA7397500812606 /* DairoImageCrop */; };
 		5B16C16A2BA7421700812606 /* DairoImageCrop in Frameworks */ = {isa = PBXBuildFile; productRef = 5B16C1692BA7421700812606 /* DairoImageCrop */; };
+		5B16C16C2BA7450700812606 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B16C16B2BA7450700812606 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +21,8 @@
 		5B16C1532BA7391300812606 /* DairoImageCropDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DairoImageCropDemoApp.swift; sourceTree = "<group>"; };
 		5B16C1572BA7391500812606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B16C15A2BA7391500812606 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5B16C1612BA7393D00812606 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../DairoImageCropbk/DairoImageCrop/ContentView.swift; sourceTree = "<group>"; };
 		5B16C1622BA7393D00812606 /* SystemImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemImagePicker.swift; sourceTree = "<group>"; };
+		5B16C16B2BA7450700812606 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		5B16C1522BA7391300812606 /* DairoImageCropDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5B16C1612BA7393D00812606 /* ContentView.swift */,
+				5B16C16B2BA7450700812606 /* ContentView.swift */,
 				5B16C1622BA7393D00812606 /* SystemImagePicker.swift */,
 				5B16C1532BA7391300812606 /* DairoImageCropDemoApp.swift */,
 				5B16C1572BA7391500812606 /* Assets.xcassets */,
@@ -153,7 +153,7 @@
 			files = (
 				5B16C1642BA7393D00812606 /* SystemImagePicker.swift in Sources */,
 				5B16C1542BA7391300812606 /* DairoImageCropDemoApp.swift in Sources */,
-				5B16C1632BA7393D00812606 /* ContentView.swift in Sources */,
+				5B16C16C2BA7450700812606 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
